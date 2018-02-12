@@ -71,4 +71,12 @@ RSpec.describe Cheryl do
 
     expect(result).to eq ["July 16", "August 15", "August 17"]
   end
+
+  it "valid dates by statement 5" do
+    cheryl = Cheryl.new
+
+    result = cheryl.possible_dates.select { |date| cheryl.statement5(date) }.map(&:to_s)
+
+    expect(result).to eq ["June 17", "June 18", "July 14", "July 16"]
+  end
 end
