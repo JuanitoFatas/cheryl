@@ -24,7 +24,7 @@ class Cheryl < Person
     end
   end
 
-  def tell(part, possible_dates = possible_dates())
+  def tell(part)
     possible_dates.select do |date|
       date.month == part || date.day == part
     end
