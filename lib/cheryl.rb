@@ -1,7 +1,7 @@
 require_relative "date_object"
 require_relative "person"
 
-class Cheryl
+class Cheryl < Person
   DATES = [
     "May 15",
     "May 16",
@@ -112,5 +112,8 @@ class Cheryl
   end
 
   def birthday
+    possible_dates.select do |date|
+      statement3(date) and statement4(date) and statement5(date)
+    end
   end
 end

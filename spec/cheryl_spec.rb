@@ -2,10 +2,13 @@ require "cheryl"
 
 RSpec.describe Cheryl do
   describe "birthday" do
-    xit "is July 16" do
+    it "is July 16" do
       cheryl = Cheryl.new
 
-      expect(cheryl.birthday).to eq "July 16"
+      result = cheryl.birthday.map &:to_s
+
+      expect(result).to eq ["July 16"]
+      expect(cheryl.know(result)).to be true
     end
   end
 
