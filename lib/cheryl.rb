@@ -20,6 +20,12 @@ class Cheryl
     end
   end
 
+  def tell(part, possible_dates = possible_dates())
+    possible_dates.select do |date|
+      date.month == part || date.day == part
+    end
+  end
+
   def birthday
   end
 end
