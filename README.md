@@ -1,4 +1,4 @@
-This is my Ruby translation to Peter Norvig's [What is Cheryl's Birthday][norvig-cheryl-py].
+This is my Ruby translation to Peter Norvig's [solution to When is Cheryl's Birthday problem][norvig-cheryl-py].
 
 # When is Cheryl's Birthday?
 
