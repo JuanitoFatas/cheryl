@@ -17,7 +17,7 @@ This is my Ruby translation to Peter Norvig's [solution to When is Cheryl's Birt
 5. Albert: Then I also know when Cheryl's birthday is.
 6. So when is Cheryl's birthday?
 
-View my solution:
+View Peter Norvig's solution translate in Ruby:
 
 - [Create abstraction for cheryl's possible dates](https://github.com/JuanitoFatas/cheryl/commit/5979188)
 - [Cheryl tells part of birthday](https://github.com/JuanitoFatas/cheryl/commit/32f1943)
